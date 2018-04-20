@@ -1,0 +1,63 @@
+﻿body 
+{
+    /*
+    www.cssmatic.com/es/gradient-generator degradado
+    #'\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28179\%2C220\%2C237\%2C1\%29\%200\%25\%2C\%20rgba\%2841\%2C184\%2C229\%2C1\%29\%2050\%25\%2C\%20rgba\%28188\%2C224\%2C238\%2C1\%29\%20100\%25\%29\%3B'
+   */
+
+background: rgba(179,220,237,1);
+background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+margin: 20px;
+}
+
+
+table {     
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 2%; /* 45px;*/     
+    text-align: left;    
+    border-collapse: collapse;
+    width: 95%; /*480px;*/ 
+    padding: 15px;
+   }
+
+th {     
+    font-size: 13px;     
+    font-weight: normal;     
+    padding: 8px;     
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; }
+
+td {    
+    padding: 8px;     
+    background: #e8edff;     
+    border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; }
+
+tr:hover td { 
+    background: #d0dafd; 
+    color: #339; 
+
+}
+
+.imgBanerSabores {
+    /*width:300px;
+    height:300px;*/
+
+    max-width: 100%;
+    height: auto;
+    width: 100%; /*auto/9; /* Bug de ie8 */
+    border-radius:15px;
+}
+
+
+
